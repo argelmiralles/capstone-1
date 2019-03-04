@@ -1,0 +1,80 @@
+/*LANDING PAGE*/
+.landing {
+	background-image:url(../images/landing.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mainlogo {
+	height: 20vh;
+	background-image: url(../images/mainlogo.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	top:60%;
+}
+
+#jump {
+	text-align: center;
+	position: relative;
+	top:62%;
+}
+
+#jump h5 {
+	color: white;
+	background-image: linear-gradient(#FF0000, #670000);
+	text-align: center;
+	width: 110px;
+	border-radius: 10px;
+	padding: 10px;
+	border: #CCD8F7 2px solid;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+/*END OF LANDING PAGE*/
+/*MAIN PAGE*/
+/*NAVBAR*/
+.navbar {
+	background-image: linear-gradient(#FF0000, #670000);
+	border-bottom: #CCD8F7 2px solid;
+	border-top: #CCD8F7 2px solid;
+	height:8vh;
+
+}
+
+nav a img{
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+.nav-item a{
+	color: #f4f4f4;
+}
+
+/*END OF NAVBAAR*/
+/*MAIN*/
+
+#overlay {
+	background-image: url(../images/overlay.png);
+}
+#mainPage {
+	height: 100vh;
+	/*background-image: linear-gradient(#6D709D, #646C9B);*/
+	background-image: url(../images/mainWallpaper.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 8vh;
+}
+
+#trailer {
+	height: 40vh;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 2vh;
+}
