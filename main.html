@@ -5,11 +5,11 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
   <title>Spider-Man Into the Spider-verse</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Bangers" rel="stylesheet">
 </head>
 
 <body>
@@ -18,64 +18,135 @@
     <div class="container-fluid overlay" id="overlay">
       <a class="navbar-brand" href="#"><img src="assets/images/navlogo.jpeg"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Disabled</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Mainpage -->
-  <main id="mainPage">
-    <div class="container" id="trailer">
-      <div class="row justify-content-center" id="ratings">
-        <div class="col-12 col-sm-3 rt mb-2">
-           <img src="assets/images/rt.png" class="img-fluid">
+<!-- Mainpage -->
+<main id="mainPage">
+  <div class="container" id="trailer">
+    <div class="row justify-content-center" id="ratings">
+      <div class="d-none d-sm-block col-12 col-sm-3 rt mb-2">
+       <img src="assets/images/rt.png" class="img-fluid">
+     </div>
+     <div class="col-12 col-sm-6 col-md-6 oscars">
+      <img src="assets/images/award.png" class="img-fluid">
+    </div>
+    <div class="d-none d-sm-block col-3 col-md-3 mt">
+      <img src="assets/images/mt.svg" class="img-fluid">
+    </div>
+    <!-- <div class="d-inline d-sm-none rt2 col-3">
+     <img src="assets/images/rt.png" class="img-fluid">
+   </div> -->
+ </div>
+ <div class="row justify-content-center">
+  <div class="col-12 col-md-10">
+    <div id="carouselExampleIndicators" class="carousel slide mt-1" data-ride="none">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/tg52up16eq0?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=1&autoplay=1" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="col-12 col-sm-6 oscars mb-2">
-            <img src="assets/images/award.png" class="img-fluid">
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/zzH4rV08TLI?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=1&autoplay=1" allowfullscreen></iframe>
           </div>
-          <div class="col-12 col-sm-3 mt mb-2">
-              <img src="assets/images/mt.svg" class="img-fluid">
-            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/vDjvhwgbsP8?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=1&autoplay=1" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
-          <div class="row justify-content-center">
-            <div class="col-12">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tg52up16eq0" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
-
-            </div>
-          </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </main>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-    <script>
+  </div>
+</div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-3">
+      <div class=comicBorder>
+        <h2>Watch Now!</h2>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class=comicBorder>
+        <h2>Story...</h2>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class=comicBorder>
+        <h2>Soundtrack</h2>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class=comicBorder>
+        <h2>Merchandise</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container footer mt-2 mt-md-5 ">
+  <div class="row justify-content-center">
+    <div class="col-12 col-sm-12">
+      <img class="img-fluid footer-image mx-2" src="assets/images/footer1.png">
+      <img class="img-fluid footer-image mx-2" src="assets/images/footer2.png">
+      <img class="img-fluid footer-image mx-2" src="assets/images/footer3.png">
+      <img class="img-fluid footer-image mx-2" src="assets/images/footer4.png">
+      <img class="img-fluid footer-image mx-2" src="assets/images/footer5.png">
+      <img class="img-fluid footer-image mx-2" src="assets/images/footer6.png"> 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <p>This website is made only for educational purposes. No copyright infringement intended.</p>
+    </div> 
+  </div>
+  
+</div>
+</main>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+   <!--  <script>
         $(function (){
             $(document).scroll(function(){
               var $nav = $("nav");
@@ -90,7 +161,6 @@
               $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             })
           })
-    </script>
-</body>
-
-</html>
+        </script> -->
+      </body>
+      </html>

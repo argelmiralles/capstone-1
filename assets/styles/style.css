@@ -1,3 +1,7 @@
+* {
+	font-family: 'Bangers', sans-serif;
+}
+
 /*LANDING PAGE*/
 .landing {
 	/* background-image:url(../images/landing.jpg);
@@ -36,13 +40,14 @@
 	color: white;
 	background-image: linear-gradient(#FF0000, #670000);
 	text-align: center;
-	width: 110px;
+	width: 150px;
 	border-radius: 10px;
 	padding: 10px;
 	border: #CCD8F7 2px solid;
 	margin: 0 auto;
 	text-transform: uppercase;
 	font-weight: 500;
+	font-size: 2.5em;
 }
 
 .x {
@@ -62,7 +67,7 @@
 	background-image: linear-gradient(#FF0000, #670000);
 	border-bottom: #CCD8F7 2px solid;
 	border-top: #CCD8F7 2px solid;
-	height:8vh;
+	/*height:8vh;*/
 	padding: 0;
 
 }
@@ -74,7 +79,12 @@ nav a img{
 
 
 .nav-item a{
-	color: #f4f4f4;
+	color: #f2f2f2;
+	font-size: 2em;
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+	border: black 1px solid;
 }
 
 /* nav ul {
@@ -106,7 +116,8 @@ nav a img{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-top: 8vh;
+	margin-top: 7vh;
+	padding-top:1vh;
 }
 
 #trailer {
@@ -119,7 +130,7 @@ nav a img{
 
 .oscars img {
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.2);
 	padding: 10px;
 	margin-bottom:3vh;
 	border-radius: 5px;
@@ -132,6 +143,10 @@ nav a img{
 .mt img {
 	height: 15vh;
 }
+
+.rt2 img {
+	height: 15vh;
+}
 /* .rt img {
 	height: 15vh;
 }
@@ -141,3 +156,48 @@ nav a img{
 	color: white;
 	line-height: 10vh;
 } */
+
+
+.carousel-control-prev, .carousel-control-next {
+   height:0;
+   top:50%;
+}
+
+.comicBorder h2 {
+	color: white;
+	background-image: url(../images/overlay.png);
+	text-align: center;
+	width: 20vw;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+	/*text-transform: uppercase;*/
+	font-weight: 500;
+	font-size: 2.5em;
+}
+
+.comicBorder {
+	background-image: linear-gradient(#FF0000, #670000);
+	border-radius: 10px;
+	border: #CCD8F7 3px solid;
+	/*height: 100%;
+	width:20vw;*/
+ }
+
+ .footer {
+ 	text-align: center;
+ }
+
+.footer p {
+	color: #f2f2f2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width:400px) {
+	.footer-image {
+		max-width: 80px;
+			}
+
+			
+}
+
