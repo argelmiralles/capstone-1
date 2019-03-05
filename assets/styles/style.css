@@ -163,9 +163,8 @@ nav a img{
    top:50%;
 }
 
-.comicBorder h2 {
+.comicBorder a {
 	color: white;
-	background-image: url(../images/overlay.png);
 	text-align: center;
 	width: 20vw;
 	border-radius: 10px;
@@ -173,7 +172,7 @@ nav a img{
 	margin: 0 auto;
 	/*text-transform: uppercase;*/
 	font-weight: 500;
-	font-size: 2.5em;
+	font-size: 1.6rem;
 }
 
 .comicBorder {
@@ -182,6 +181,8 @@ nav a img{
 	border: #CCD8F7 3px solid;
 	/*height: 100%;
 	width:20vw;*/
+	text-align: center;
+
  }
 
  .footer {
@@ -201,3 +202,77 @@ nav a img{
 			
 }
 
+/* Watch Page */
+
+#watchpage {
+	/* height: 100vh; */
+	background-image:url(../images/watchWallpaper.png);
+	background-size: cover;
+	background-position: center;
+	margin-top: 7vh;
+	padding-top:5vh;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+#watchpage h1 {
+	color: #f2f2f2;
+	font-size: 3rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+#watchpage .container {
+	text-align: center;
+}
+
+/* .buydigital{
+	min-height: 49px;
+	max-height: 10vh;
+} */
+
+.icons {
+	color: #f2f2f2;
+	font-size: 5em;
+}
+
+.getdigital {
+	color: #f2f2f2;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#watchpage h2 {
+	color: #f2f2f2;
+	font-family: 'Raleway', sans-serif;
+}
+
+#id {
+	height: 100vh;
+}
+
+#physical {
+	height: 80vh;
+}
+
+#physical h2 {
+	padding-top: 10vh;
+	font-size: 3rem;
+	font-family: 'Raleway', sans-serif;
+}
+/* End of Watch Page */
+
+/* Soundtrack */
+.soundtrackpage {
+	height: 100vh;
+	background-image: url(../images/spiderman-into-the-spider-verse-movie-wallpaper-1.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.soundtrack {
+	text-align: center;
+}
+
+
+
+/* End of Soundtrack */
