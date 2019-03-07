@@ -2,6 +2,15 @@
 	font-family: 'Bangers', sans-serif;
 }
 
+/*body {
+	background-color:black;
+}*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 /*LANDING PAGE*/
 .landing {
 	/* background-image:url(../images/landing.jpg);
@@ -48,11 +57,21 @@
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 2.5em;
+	display: inline;
 }
 
 .x {
     height: 100vh;   
     overflow: hidden; 
+}
+
+#jump a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#jump a:hover h5{
+	color: black;
 }
 
 
@@ -87,8 +106,8 @@ a.navbar-brand{
 	font-size: 2em;
 }
 
-.navbar-toggler, .navbar-toggler-icon {
-	border: black 1px solid;
+.navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2f2');
 }
 
 /* nav ul {
@@ -106,15 +125,18 @@ a.navbar-brand{
 	/* transition: background 2s ease-out; */
 	border: none;
   }
+
+  #overlay {
+	background-image: url(../images/overlay.png);
+}
 /*END OF NAVBAAR*/
 /*MAIN*/
 
 
-#overlay {
-	background-image: url(../images/overlay.png);
-}
+
+
 #mainPage {
-	height: 100vh;
+	height: 100%;
 	/*background-image: linear-gradient(#6D709D, #646C9B);*/
 	background-image: url(../images/mainWallpaper.jpg);
 	background-position: center;
@@ -180,6 +202,12 @@ a.navbar-brand{
 	font-size: 1.6rem;
 }
 
+.comicBorder a:hover {
+	text-decoration: none;
+	color:black;
+
+}
+
 .comicBorder {
 	background-image: linear-gradient(#FF0000, #670000);
 	border-radius: 10px;
@@ -199,13 +227,7 @@ a.navbar-brand{
 	font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (max-width:400px) {
-	.footer-image {
-		max-width: 80px;
-			}
 
-			
-}
 
 /* Watch Page */
 
@@ -273,6 +295,7 @@ a.navbar-brand{
 	background-position: center;
 	text-align: center;
 	background-attachment: fixed;
+	height: 100vh;
 }
 .soundtrack {
 	text-align: center;
@@ -358,3 +381,121 @@ a.navbar-brand{
 }
 /* end of try */
 /*End of Gallery*/
+
+/*NAVBAR STATUS*/
+.nav-item > .active {
+  color: black;
+  background-image: url("../images/web.png");
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+
+.nav-item > a:hover {
+  color: black;
+}
+
+#homeweb { 
+	color: black;
+  background-image: url("../images/web.png");
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+ }
+
+ .vendor:hover {
+	opacity: 0.8;
+	transform:scale(1.1);
+	transition: all 0.2s;
+}
+
+ .retailer:hover {
+	opacity: 0.4;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.invitation h3 {
+	color: white;
+}
+
+#storypage {
+	background-image: url(../images/story.png);
+	background-size: cover;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+#storytext {
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	padding: 20px;
+}
+
+#storytext p {
+	font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width:768px) {
+	.footer-image {
+		max-width: 80px;
+	}
+
+	#mainPage {
+		height: 100vh;
+	}
+	.footer {
+		margin-top: 50px;
+	}
+
+	#digital #getdigital {
+		font-size: 2.5em;
+	}
+
+	#digital a h2 {
+		font-size: 1.5em;
+	}
+
+	#soundtrackfooter {
+		padding-top: 15vh;
+	}
+
+	#storypage {
+		height: 100%;
+	}
+
+			
+}
+
+@media only screen and (min-width:1200px) {
+	
+	.footer {
+		padding-top: 13vh;
+	}
+
+	.sounds {
+		margin-bottom: 13vh;
+	}
+	#digital #getdigital {
+		font-size: 2.5em;
+	}
+
+	#digital a h2 {
+		font-size: 1.5em;
+	}
+
+			
+}
