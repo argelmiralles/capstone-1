@@ -1,5 +1,5 @@
 * {
-	font-family: 'Bangers', sans-serif;
+  font-family: "Bangers", sans-serif;
 }
 
 /*body {
@@ -10,169 +10,166 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /*LANDING PAGE*/
 .landing {
-	/* background-image:url(../images/landing.jpg);
+  /* background-image:url(../images/landing.jpg);
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat; */
-	background-image: url(../images/landing.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: auto 100% ;
-    height: 112.5vh;
-    position: relative;
-    top: 0%;
-    animation: scroll 5s;
-    animation-fill-mode: forwards;
+  background-image: url(../images/landing.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 112.5vh;
+  position: relative;
+  top: 0%;
+  animation: scroll 5s;
+  animation-fill-mode: forwards;
 }
 
 .mainlogo {
-	height: 20vh;
-	background-image: url(../images/mainlogo.png);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	position: relative;
-	top:60%;
+  height: 20vh;
+  background-image: url(../images/mainlogo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 60%;
 }
 
 #jump {
-	text-align: center;
-	position: relative;
-	top:62%;
+  text-align: center;
+  position: relative;
+  top: 62%;
 }
 
 #jump h5 {
-	color: white;
-	background-image: linear-gradient(#FF0000, #670000);
-	text-align: center;
-	width: 150px;
-	border-radius: 10px;
-	padding: 10px;
-	border: #CCD8F7 2px solid;
-	margin: 0 auto;
-	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 2.5em;
-	display: inline;
+  color: white;
+  background-image: linear-gradient(#ff0000, #670000);
+  text-align: center;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  border: #ccd8f7 2px solid;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.5em;
+  display: inline;
 }
 
 .x {
-    height: 100vh;   
-    overflow: hidden; 
+  height: 100vh;
+  overflow: hidden;
 }
 
 #jump a:hover {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
-#jump a:hover h5{
-	color: black;
+#jump a:hover h5 {
+  color: black;
 }
-
 
 @keyframes scroll {
-    0%      {top: 0%}
-    100%    {top: -12.5%}
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -12.5%;
+  }
 }
 /*END OF LANDING PAGE*/
 /*MAIN PAGE*/
 /*NAVBAR*/
 .navbar {
-	background-image: linear-gradient(#FF0000, #670000);
-	border-bottom: #CCD8F7 2px solid;
-	border-top: #CCD8F7 2px solid;
-	/*height:8vh;*/
-	padding: 0;
-
+  background-image: linear-gradient(#ff0000, #670000);
+  border-bottom: #ccd8f7 2px solid;
+  border-top: #ccd8f7 2px solid;
+  /*height:8vh;*/
+  padding: 0;
 }
 
-nav a img{
-	height: 6vh;
-	border-radius: 50%;
+nav a img {
+  height: 6vh;
+  border-radius: 50%;
 }
 
-a.navbar-brand{
-	color: #f2f2f2;
-	font-size: 2em;
+a.navbar-brand {
+  color: #f2f2f2;
+  font-size: 2em;
 }
 
-.nav-item a{
-	color: #f2f2f2;
-	font-size: 2em;
+.nav-item a {
+  color: #f2f2f2;
+  font-size: 2em;
 }
 
 .navbar-toggler-icon {
-background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2f2');
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2f2");
 }
 
 /* nav ul {
 	background-color:black;
 } */
 
-.navbar.scrolled{
-	background: rgba(225, 225, 225, 0.0);
-	/* transition: background 2s ease-out; */
-	border: none;
-  }
+.navbar.scrolled {
+  background: rgba(225, 225, 225, 0);
+  /* transition: background 2s ease-out; */
+  border: none;
+}
 
-  .overlay.scrolled{
-	background-image: none;
-	/* transition: background 2s ease-out; */
-	border: none;
-  }
+.overlay.scrolled {
+  background-image: none;
+  /* transition: background 2s ease-out; */
+  border: none;
+}
 
-  #overlay {
-	background-image: url(../images/overlay.png);
+#overlay {
+  background-image: url(../images/overlay.png);
 }
 /*END OF NAVBAAR*/
 /*MAIN*/
 
-
-
-
 #mainPage {
-	height: 100%;
-	/*background-image: linear-gradient(#6D709D, #646C9B);*/
-	background-image: url(../images/mainWallpaper.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-top: 7vh;
-	padding-top:1vh;
-	background-attachment: fixed;
+  min-height: 100vh;
+  height: 100%;
+  /*background-image: linear-gradient(#6D709D, #646C9B);*/
+  background-image: url(../images/mainWallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #trailer {
-	/* height: 40vh; */
-	/* width: 50%; */
-	margin: 0 auto;
-	padding-top: 2vh;
-	text-align: center;
+  /* height: 40vh; */
+  /* width: 50%; */
+  margin: 0 auto;
+  padding-top: 2vh;
+  text-align: center;
 }
 
 .oscars img {
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.2);
-	padding: 10px;
-	margin-bottom:3vh;
-	border-radius: 5px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin-bottom: 3vh;
+  border-radius: 5px;
 }
 
 .rt img {
-	height: 15vh;
+  height: 15vh;
 }
 
 .mt img {
-	height: 15vh;
+  height: 15vh;
 }
 
 .rt2 img {
-	height: 15vh;
+  height: 15vh;
 }
 /* .rt img {
 	height: 15vh;
@@ -184,72 +181,68 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2
 	line-height: 10vh;
 } */
 
-
-.carousel-control-prev, .carousel-control-next {
-   height:0;
-   top:50%;
+.carousel-control-prev,
+.carousel-control-next {
+  height: 0;
+  top: 50%;
 }
 
 .comicBorder a {
-	color: white;
-	text-align: center;
-	width: 20vw;
-	border-radius: 10px;
-	padding: 10px;
-	margin: 0 auto;
-	/*text-transform: uppercase;*/
-	font-weight: 500;
-	font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  width: 20vw;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  /*text-transform: uppercase;*/
+  font-weight: 500;
+  font-size: 1.6rem;
 }
 
 .comicBorder a:hover {
-	text-decoration: none;
-	color:black;
-
+  text-decoration: none;
+  color: black;
 }
 
 .comicBorder {
-	background-image: linear-gradient(#FF0000, #670000);
-	border-radius: 10px;
-	border: #CCD8F7 3px solid;
-	/*height: 100%;
+  background-image: linear-gradient(#ff0000, #670000);
+  border-radius: 10px;
+  border: #ccd8f7 3px solid;
+  /*height: 100%;
 	width:20vw;*/
-	text-align: center;
-
- }
-
- .footer {
- 	text-align: center;
- }
-
-.footer p {
-	color: #f2f2f2;
-	font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
+.footer {
+  text-align: center;
+}
 
+.footer p {
+  color: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+}
 
 /* Watch Page */
 
 #watchpage {
-	/* height: 100vh; */
-	background-image:url(../images/watchWallpaper.png);
-	background-size: cover;
-	background-position: center;
-	margin-top: 7vh;
-	padding-top:5vh;
-	text-align: center;
-	background-attachment: fixed;
+  /* height: 100vh; */
+  background-image: url(../images/watchWallpaper.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 7vh;
+  padding-top: 5vh;
+  text-align: center;
+  background-attachment: fixed;
 }
 
 #watchpage h1 {
-	color: #f2f2f2;
-	font-size: 3em;
-	font-family: 'Raleway', sans-serif;
+  color: #f2f2f2;
+  font-size: 3em;
+  font-family: "Raleway", sans-serif;
 }
 
 #watchpage .container {
-	text-align: center;
+  text-align: center;
 }
 
 /* .buydigital{
@@ -258,23 +251,23 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2
 } */
 
 .icons {
-	color: #f2f2f2;
-	font-size: 5em;
+  color: #f2f2f2;
+  font-size: 5em;
 }
 
 .getdigital {
-	color: #f2f2f2;
-	font-size: 2em;
-	font-family: 'Montserrat', sans-serif;
+  color: #f2f2f2;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
 }
 
 #watchpage h2 {
-	color: #f2f2f2;
-	font-family: 'Raleway', sans-serif;
+  color: #f2f2f2;
+  font-family: "Raleway", sans-serif;
 }
 
 #id {
-	height: 100vh;
+  height: 100vh;
 }
 
 /* #physical {
@@ -282,65 +275,60 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2
 } */
 
 #physical h2 {
-	padding-top: 10vh;
-	font-size: 3rem;
-	font-family: 'Raleway', sans-serif;
+  padding-top: 10vh;
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
 }
 /* End of Watch Page */
 
 /* Soundtrack */
 .soundtrackpage {
-	background-image: url(../images/spiderman-into-the-spider-verse-movie-wallpaper-1.jpg);
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-attachment: fixed;
-	height: 100vh;
+  background-image: url(../images/spiderman-into-the-spider-verse-movie-wallpaper-1.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 .soundtrack {
-	text-align: center;
+  text-align: center;
 }
 
-
-
 /* End of Soundtrack */
-
 
 /*Gallery*/
 
 #gallerypage {
-	height: 100%;
-	background-image: url(../images/gallery.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
+  height: 100%;
+  background-image: url(../images/gallery.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 #gallerypage h2 {
-	color: #f2f2f2;
-	font-size: 3rem;
+  color: #f2f2f2;
+  font-size: 3rem;
 }
 
 #moviesnippets video {
-	width: 100%;
-	border: 10px black solid;
-	background-color: black;
-	background-size: cover;
+  width: 100%;
+  border: 10px black solid;
+  background-color: black;
+  background-size: cover;
 }
 
 .comics {
-	background-image: linear-gradient(to right, #FF8383, #670000);
-	padding: 1px;
-	border: 10px black solid;
+  background-image: linear-gradient(to right, #ff8383, #670000);
+  padding: 1px;
+  border: 10px black solid;
 }
 
-.invitation	{
-	text-align: center;
+.invitation {
+  text-align: center;
 }
-
-
 
 /* try */
 .hover {
@@ -348,26 +336,25 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
-	backface-visibility: hidden;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 
 .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-	text-align: center;
-	
+  text-align: center;
 }
 
 .containerimage:hover .hover {
-	opacity: 0.3;
-	border:5px #670000 solid;
+  opacity: 0.3;
+  border: 5px #670000 solid;
 }
 
 .containerimage:hover .middle {
@@ -384,7 +371,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2
 
 /*NAVBAR STATUS*/
 .nav-item > .active {
-  color: black;
+  color: #333333;
   background-image: url("../images/web.png");
   background-size: cover;
   height: 100%;
@@ -395,107 +382,102 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f2f2
   color: black;
 }
 
-#homeweb { 
-	color: black;
+#homeweb {
+  color: black;
   background-image: url("../images/web.png");
   background-size: cover;
   height: 100%;
   background-position: center;
- }
-
- .vendor:hover {
-	opacity: 0.8;
-	transform:scale(1.1);
-	transition: all 0.2s;
 }
 
- .retailer:hover {
-	opacity: 0.4;
+.vendor:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.2s;
 }
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.retailer:hover {
+  opacity: 0.4;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .invitation h3 {
-	color: white;
+  color: white;
 }
 
 #storypage {
-	background-image: url(../images/story.png);
-	background-size: cover;
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
+  background-image: url(../images/story.png);
+  background-size: cover;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 #storytext {
-	color: white;
-	background-color: rgba(0,0,0,0.7);
-	padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
 }
 
 #storytext p {
-	font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-@media only screen and (max-width:768px) {
-	.footer-image {
-		max-width: 80px;
-	}
+@media only screen and (max-width: 768px) {
+  .footer-image {
+    max-width: 80px;
+  }
 
-	#mainPage {
-		height: 100vh;
-	}
-	.footer {
-		margin-top: 50px;
-	}
+  /* #mainPage {
+    height: 100vh;
+  } */
+  .footer {
+    margin-top: 50px;
+  }
 
-	#digital #getdigital {
-		font-size: 2.5em;
-	}
+  #digital #getdigital {
+    font-size: 2.5em;
+  }
 
-	#digital a h2 {
-		font-size: 1.5em;
-	}
+  #digital a h2 {
+    font-size: 1.5em;
+  }
 
-	#soundtrackfooter {
-		padding-top: 15vh;
-	}
+  #soundtrackfooter {
+    padding-top: 15vh;
+  }
 
-	#storypage {
-		height: 100%;
-	}
-
-			
+  #storypage {
+    height: 100%;
+  }
 }
 
-@media only screen and (min-width:1200px) {
-	
-	.footer {
-		padding-top: 13vh;
-	}
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 13vh;
+  }
 
-	.sounds {
-		margin-bottom: 13vh;
-	}
-	#digital #getdigital {
-		font-size: 2.5em;
-	}
+  .sounds {
+    margin-bottom: 13vh;
+  }
+  #digital #getdigital {
+    font-size: 2.5em;
+  }
 
-	#digital a h2 {
-		font-size: 1.5em;
-	}
-
-			
+  #digital a h2 {
+    font-size: 1.5em;
+  }
 }
